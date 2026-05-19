@@ -626,7 +626,11 @@ while True:
     time.sleep(0.5)
 ```
 
----
+## Required Libraries
+
+This project uses the `ssd1306.py` OLED display driver library for controlling the SSD1306 OLED screen with MicroPython on ESP32.
+
+Make sure the file `ssd1306.py` is uploaded to the ESP32 board before running the project.
 
 ## Developer
 
